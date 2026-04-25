@@ -1,5 +1,1 @@
-replicaCount: 1
-datastore:
-  engine: memory
-service:
-  type: NodePort
+replicaCount: 1echo datastore:echo   engine: memoryecho service:echo   type: NodePort
