@@ -1,0 +1,22 @@
+auth:
+  adminUser: admin
+  adminPassword: "Admin@1234"
+production: false
+proxy: edge
+service:
+  type: NodePort
+  nodePorts:
+    http: "30080"
+postgresql:
+  enabled: true
+  auth:
+    username: keycloak
+    password: "Keycloak@1234"
+    database: keycloak
+resources:
+  requests:
+    memory: "512Mi"
+    cpu: "250m"
+  limits:
+    memory: "1Gi"
+    cpu: "500m"

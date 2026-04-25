@@ -1,0 +1,14 @@
+store_name: auth-platform
+store_id: 01KQ2PF7SQ7DX91BZWBARAEX8S
+model_id: 01KQ2PP513ZCD1JAVCFR5BTCDK
+
+tuples:
+  - user: user:alice
+    relation: owner
+    object: document:report
+  - user: user:bob
+    relation: viewer
+    object: document:report
+  - user: user:carol
+    relation: editor
+    object: document:report
